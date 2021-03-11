@@ -1,0 +1,30 @@
+.dropdown-menu{
+    background-color: darkslategrey; 
+    color:white; 
+}
+
+.dropdown-item{
+    color: aliceblue;
+}
+
+h1,h3{
+    color: aliceblue;
+}
+
+.indent{
+    text-indent: 25%;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/59/e7/58/59e758cd94b6a989aa2cc7b4eeb68098.jpg");
+}
+
+.card-header{
+    background-color: palegoldenrod;
+}
