@@ -11,7 +11,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">PROFILE</a>
+            <a class="navbar-brand">PROFILE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,11 +74,54 @@
               <h5 class="card-header">2. Computer Languages adept in</h5>
               <div class="card-body">
                 <p class="card-text">
-                  <ul>
+                  <!-- <ul>
                     <li>Python</li>
                     <li>Java</li>
                     <li>ReactJS</li>
-                  </ul>
+                  </ul> -->
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">Fields</th>
+                        <th scope="col">Proficiency Bar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Python</th>
+                        <td>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Java</th>
+                        <td>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">ReactJS</th>
+                        <td>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">PostgreSQL</th>
+                        <td>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
+
                 </p>
               </div>
             </div>
@@ -94,8 +137,8 @@
                 <p class="card-text">
                   <ul>
                     <li>HTML, CSS</li>
-                    <li>Data Science</li>
-                    <li>Computer Networks</li>
+                    <li>Web Scrapping</li>
+                    <li>Socket Programming</li>
                     <li>SQL</li>
                   </ul>
                 </p>

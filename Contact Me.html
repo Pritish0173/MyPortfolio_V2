@@ -11,7 +11,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">PROFILE</a>
+            <a class="navbar-brand">PROFILE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,6 +46,7 @@
                         <p><strong>7987086070</strong></p>                
                       </div>
                     </li>
+                    <hr>
                     <li class="media my-4">
                       <img src="https://iaccessibility.net/wp-content/uploads/2016/09/9801d347a80d15a2fb5f7ca1cb9df8f3-300x300.jpg" class="mr-3" alt="Email" width="5%">
                       <div class="media-body">
@@ -53,25 +54,31 @@
                         <p><strong>pnair.pritish0173@gmail.com</strong></p>
                       </div>
                     </li>
+                    <hr>
                     <li class="media">
                       <img src="github-mark.png" class="mr-3" alt="github" width="5%">
                       <div class="media-body">
                         <h5 class="mt-0 mb-1">Github</h5>
-                        <p><a href = "https://github.com/Pritish0173"><strong>Github Link</strong></a></p>
+                        <!-- <p><a href = "https://github.com/Pritish0173"><strong>Github Link</strong></a></p> -->
+                        <p><a class="btn btn-primary" href="https://github.com/Pritish0173" role="button">Link</a></p>
                       </div>
                     </li>
+                    <hr>
                     <li class="media">
                         <img src="hackerrank-logo.jpg" class="mr-3" alt="hackerrank" width="5%">
                         <div class="media-body">
                           <h5 class="mt-0 mb-1">HackerRank</h5>
-                          <p><a href = "https://www.hackerrank.com/Pritish0173?hr_r=1"><strong>HackerRank Link</strong></a></p>
+                          <!-- <p><a href = "https://www.hackerrank.com/Pritish0173?hr_r=1"><strong>HackerRank Link</strong></a></p> -->
+                          <p><a class="btn btn-primary" href="https://www.hackerrank.com/Pritish0173?hr_r=1" role="button">Link</a></p>
                         </div>
                     </li>
+                    <hr>
                     <li class="media">
                         <img src="LinkedIn.jfif" class="mr-3" alt="linkedin" width="5%">
                         <div class="media-body">
                           <h5 class="mt-0 mb-1">LinkedIn</h5>
-                          <p><a href = "https://www.linkedin.com/in/pritish-nair-80ba63109/"><strong>LinkedIn Link</strong></a></p>
+                          <!-- <p><a href = "https://www.linkedin.com/in/pritish-nair-80ba63109/"><strong>LinkedIn Link</strong></a></p> -->
+                          <p><a class="btn btn-primary" href="https://www.linkedin.com/in/pritish-nair-80ba63109/" role="button">Link</a></p>
                         </div>
                     </li>
                   </ul>
@@ -84,34 +91,34 @@
 
         <div class="container">
             <div class="card">
-              <h5 class="card-header">2. Computer Languages adept in</h5>
+              <h5 class="card-header">2. Feedback/Message</h5>
               <div class="card-body">
                 <p class="card-text">
                     If you have any Feedback or Job offer, then please fill the form
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contact Form</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact">Contact Form</button>
 
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="contact">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close" data-dismiss="modal">
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
                             <form>
                             <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                <input type="text" class="form-control" id="recipient-name">
+                                <label for="Name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control" id="Name">
                             </div>
                             <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Email-ID:</label>
-                                <input type="text" class="form-control" id="recipient-name">
+                                <label for="Email" class="col-form-label">Email-ID:</label>
+                                <input type="text" class="form-control" id="Email">
                             </div>
                             <div class="form-group">
-                                <label for="message-text" class="col-form-label">Feedback/Message:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
+                                <label for="Message" class="col-form-label">Feedback/Message:</label>
+                                <textarea class="form-control" id="Message"></textarea>
                             </div>
                             </form>
                         </div>
